@@ -37,27 +37,27 @@
   .word{font-family:var(--disp);font-weight:600;font-size:37px}
   .s-graf .word{color:#fff} .s-amar .word{color:#343434} .s-branco .word{color:#343434}
   .word .p{color:#FFCC29}
-  .sig{display:flex;align-items:center;gap:0;font-size:25px}
+  .sig{display:grid;grid-template-columns:27px 1fr;align-items:center;gap:16px;font-size:25px}
   .s-graf .sig{color:#b4b0a8} .s-amar .sig{color:#4a3f1c} .s-branco .sig{color:#6a6a6a}
-  .selo{width:27px;height:27px;border-radius:50%;display:inline-block;flex:none;margin-right:16px}
+  .selo{width:27px;height:27px;border-radius:50%}
   .s-graf .selo{background:#FFCC29} .s-amar .selo{background:#343434} .s-branco .selo{background:#FFCC29}
   .pager{font-size:25px;letter-spacing:.05em}
   .s-graf .pager{color:#8f8b83} .s-amar .pager{color:#5b4f26} .s-branco .pager{color:#a2a2a2}
 
-  ol.frentes{list-style:none;margin-top:44px;display:flex;flex-direction:column;gap:23px}
+  ol.frentes{list-style:none;margin-top:34px;display:flex;flex-direction:column;gap:17px}
   ol.frentes li{display:grid;grid-template-columns:56px 1fr;align-items:baseline;gap:17px}
   .num{font-family:var(--disp);font-weight:600;font-size:38px;color:#343434;opacity:.42}
-  .nm{font-weight:600;font-size:36px;color:#343434;line-height:1.12}
-  .ds{display:block;font-weight:400;font-size:28px;color:#5b4f26;margin-top:2px}
+  .nm{font-weight:600;font-size:35px;color:#343434;line-height:1.12}
+  .ds{display:block;font-weight:400;font-size:26px;color:#5b4f26;margin-top:2px}
 
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:54px 43px;margin-top:54px}
   .stat .big{font-family:var(--disp);font-weight:600;font-size:102px;line-height:.9;color:#343434}
   .stat .lbl{font-size:30px;color:#5a5a5a;margin-top:12px;line-height:1.2}
 
   ul.difs{list-style:none;margin-top:40px;display:flex;flex-direction:column;gap:27px}
-  ul.difs li{display:grid;grid-template-columns:34px 1fr;gap:19px;align-items:start;
+  ul.difs li{display:grid;grid-template-columns:24px 1fr;gap:16px;align-items:baseline;
     font-size:33px;line-height:1.25;color:#343434}
-  ul.difs .mk{width:18px;height:18px;border-radius:50%;background:#343434;margin-top:12px}
+  ul.difs .dmk{font-weight:700;font-size:30px;color:#343434;line-height:1}
   ul.difs b{font-weight:600}
 
   .cta-btn{align-self:flex-start;margin-top:44px;background:#FFCC29;color:#343434;
@@ -127,10 +127,10 @@
       <div class="eyebrow">Por que E-SOL</div>
       <h2 class="title" style="font-size:60px">Engenharia própria, do começo ao fim</h2>
       <ul class="difs">
-        <li><span class="mk"></span><span><b>Equipe própria:</b> técnico e engenheiro, sem terceirizar</span></li>
-        <li><span class="mk"></span><span><b>Pronta entrega:</b> estoque próprio, instalação em 30&ndash;60 dias</span></li>
-        <li><span class="mk"></span><span><b>App de controle</b> e 6 meses de manutenção inclusa</span></li>
-        <li><span class="mk"></span><span><b>Parceria bancária</b> para financiar o seu projeto</span></li>
+        <li><span class="dmk">&bull;</span><span><b>Equipe própria:</b> técnico e engenheiro, sem terceirizar</span></li>
+        <li><span class="dmk">&bull;</span><span><b>Pronta entrega:</b> estoque próprio, instalação em 30&ndash;60 dias</span></li>
+        <li><span class="dmk">&bull;</span><span><b>App de controle</b> e 6 meses de manutenção inclusa</span></li>
+        <li><span class="dmk">&bull;</span><span><b>Parceria bancária</b> para financiar o seu projeto</span></li>
       </ul>
     </div>
     <div class="spacer"></div>
