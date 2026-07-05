@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carrossel institucional Grupo E-SOL — 5 slides</title>
+<style>
+  :root{
+    --grafite:#343434; --amarelo:#FFCC29; --cinza:#8A8A8A; --branco:#FFFFFF;
+    --disp:"Bahnschrift","Oswald","Arial Narrow",sans-serif;
+    --body:"Fira Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#202020;font-family:var(--body)}
+  .page{position:relative;width:1080px;height:1350px;overflow:hidden;margin:0 auto}
+  .orbit{position:absolute;inset:0;width:1080px;height:1350px;display:block}
+  .content{position:absolute;inset:0;display:flex;flex-direction:column;padding:111px 75px}
+  .spacer{flex:1 1 auto}
+
+  .s-graf{background:#343434}
+  .s-amar{background:#FFCC29}
+  .s-branco{background:#FFFFFF}
+
+  .eyebrow{font-family:var(--disp);font-weight:600;text-transform:uppercase;
+    letter-spacing:.24em;font-size:27px;line-height:1}
+  .title{font-family:var(--disp);font-weight:600;line-height:.99;margin-top:46px;letter-spacing:-.01em}
+  .lead{font-size:34px;line-height:1.32;margin-top:36px;max-width:640px}
+
+  .s-graf .eyebrow{color:#FFCC29}   .s-graf .title{color:#fff}      .s-graf .lead{color:#d9d6cf}
+  .s-amar .eyebrow{color:#343434}   .s-amar .title{color:#343434}   .s-amar .lead{color:#4a3f1c}
+  .s-branco .eyebrow{color:#8A8A8A} .s-branco .title{color:#343434} .s-branco .lead{color:#5a5a5a}
+
+  .capa .title{font-size:98px}
+  .std .title{font-size:62px}
+
+  .bot{display:flex;align-items:center;justify-content:space-between}
+  .word{font-family:var(--disp);font-weight:600;font-size:37px}
+  .s-graf .word{color:#fff} .s-amar .word{color:#343434} .s-branco .word{color:#343434}
+  .word .p{color:#FFCC29}
+  .sig{display:flex;align-items:center;gap:18px;font-size:25px}
+  .s-graf .sig{color:#b4b0a8} .s-amar .sig{color:#4a3f1c} .s-branco .sig{color:#6a6a6a}
+  .selo{width:27px;height:27px;border-radius:50%;display:inline-block}
+  .s-graf .selo{background:#FFCC29} .s-amar .selo{background:#343434} .s-branco .selo{background:#FFCC29}
+  .pager{font-size:25px;letter-spacing:.05em}
+  .s-graf .pager{color:#8f8b83} .s-amar .pager{color:#5b4f26} .s-branco .pager{color:#a2a2a2}
+
+  ol.frentes{list-style:none;margin-top:44px;display:flex;flex-direction:column;gap:23px}
+  ol.frentes li{display:grid;grid-template-columns:56px 1fr;align-items:baseline;gap:17px}
+  .num{font-family:var(--disp);font-weight:600;font-size:38px;color:#343434;opacity:.42}
+  .nm{font-weight:600;font-size:36px;color:#343434;line-height:1.12}
+  .ds{display:block;font-weight:400;font-size:28px;color:#5b4f26;margin-top:2px}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:54px 43px;margin-top:54px}
+  .stat .big{font-family:var(--disp);font-weight:600;font-size:102px;line-height:.9;color:#343434}
+  .stat .lbl{font-size:30px;color:#5a5a5a;margin-top:12px;line-height:1.2}
+
+  ul.difs{list-style:none;margin-top:40px;display:flex;flex-direction:column;gap:27px}
+  ul.difs li{display:grid;grid-template-columns:34px 1fr;gap:19px;align-items:start;
+    font-size:33px;line-height:1.25;color:#343434}
+  ul.difs .mk{width:18px;height:18px;border-radius:50%;background:#343434;margin-top:12px}
+  ul.difs b{font-weight:600}
+
+  .cta-btn{align-self:flex-start;margin-top:44px;background:#FFCC29;color:#343434;
+    font-family:var(--disp);font-weight:600;font-size:39px;letter-spacing:.02em;
+    padding:26px 44px;border-radius:100px}
+  .cta-lines{margin-top:36px;font-size:31px;line-height:1.7;color:#d9d6cf}
+  .cta-lines .h{color:#FFCC29;font-weight:600}
+</style>
+</head>
+<body>
+
+<section class="page s-graf capa" data-document-role="page" data-label="1 · Capa">
+  <svg class="orbit" viewBox="0 0 1080 1350"><path d="M0,958 Q540,938 1080,934" fill="none" stroke="#FFCC29" stroke-width="5" stroke-linecap="round"/><circle cx="540" cy="942" r="21" fill="#FFCC29"/></svg>
+  <div class="content">
+    <div>
+      <div class="eyebrow">Grupo E-SOL</div>
+      <h2 class="title">Sete empresas.<br>Um <span style="color:#FFCC29">ecossistema</span> completo.</h2>
+      <p class="lead">Do projeto à manutenção: energia solar com engenharia própria.</p>
+    </div>
+    <div class="spacer"></div>
+    <div class="bot"><div class="word">e<span class="p">·</span>sol</div><div class="pager">arraste &rarr;</div></div>
+  </div>
+</section>
+
+<section class="page s-amar" data-document-role="page" data-label="2 · As 7 frentes">
+  <svg class="orbit" viewBox="0 0 1080 1350"><path d="M0,934 Q540,919 1080,916" fill="none" stroke="#343434" stroke-width="5" stroke-linecap="round"/><circle cx="540" cy="922" r="21" fill="#343434"/></svg>
+  <div class="content">
+    <div>
+      <div class="eyebrow">As 7 frentes</div>
+      <h2 class="title" style="font-size:60px">Um grupo, sete especialidades</h2>
+      <ol class="frentes">
+        <li><span class="num">1</span><span><span class="nm">E-SOL Engenharia</span><span class="ds">Energia solar: projeto e instalação</span></span></li>
+        <li><span class="num">2</span><span><span class="nm">OPEX Solar</span><span class="ds">Pós-venda solar e gestão de usinas</span></span></li>
+        <li><span class="num">3</span><span><span class="nm">ELEX Soluções Elétricas</span><span class="ds">Projetos e instalações elétricas</span></span></li>
+        <li><span class="num">4</span><span><span class="nm">ELEX Material Elétrico</span><span class="ds">Material elétrico profissional</span></span></li>
+        <li><span class="num">5</span><span><span class="nm">Estúdio Paisagismo</span><span class="ds">Projeto e manutenção de jardins</span></span></li>
+        <li><span class="num">6</span><span><span class="nm">E-SOL Eco</span><span class="ds">Tijolo ecológico e construção sustentável</span></span></li>
+        <li><span class="num">7</span><span><span class="nm">E-SOL Shop</span><span class="ds">Acessórios solares no e-commerce</span></span></li>
+      </ol>
+    </div>
+    <div class="spacer"></div>
+    <div class="bot"><div class="sig"><span class="selo"></span>Uma empresa do Grupo E-SOL</div><div class="pager">2 / 5</div></div>
+  </div>
+</section>
+
+<section class="page s-branco std" data-document-role="page" data-label="3 · Números">
+  <svg class="orbit" viewBox="0 0 1080 1350"><path d="M0,916 Q540,896 1080,916" fill="none" stroke="#343434" stroke-width="5" stroke-linecap="round"/><circle cx="540" cy="906" r="21" fill="#343434"/></svg>
+  <div class="content">
+    <div>
+      <div class="eyebrow">O grupo em números</div>
+      <div class="grid2">
+        <div class="stat"><div class="big">+10</div><div class="lbl">anos de operação</div></div>
+        <div class="stat"><div class="big">+1.000</div><div class="lbl">usinas instaladas</div></div>
+        <div class="stat"><div class="big">7</div><div class="lbl">empresas no ecossistema</div></div>
+        <div class="stat"><div class="big">3</div><div class="lbl">estados &middot; MG &middot; ES &middot; RJ</div></div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="bot"><div class="word">e<span class="p">·</span>sol</div><div class="pager">3 / 5</div></div>
+  </div>
+</section>
+
+<section class="page s-amar std" data-document-role="page" data-label="4 · Diferenciais">
+  <svg class="orbit" viewBox="0 0 1080 1350"><path d="M0,916 Q540,919 1080,934" fill="none" stroke="#343434" stroke-width="5" stroke-linecap="round"/><circle cx="540" cy="922" r="21" fill="#343434"/></svg>
+  <div class="content">
+    <div>
+      <div class="eyebrow">Por que E-SOL</div>
+      <h2 class="title" style="font-size:60px">Engenharia própria, do começo ao fim</h2>
+      <ul class="difs">
+        <li><span class="mk"></span><span><b>Equipe própria:</b> técnico e engenheiro, sem terceirizar</span></li>
+        <li><span class="mk"></span><span><b>Pronta entrega:</b> estoque próprio, instalação em 30&ndash;60 dias</span></li>
+        <li><span class="mk"></span><span><b>App de controle</b> e 6 meses de manutenção inclusa</span></li>
+        <li><span class="mk"></span><span><b>Parceria bancária</b> para financiar o seu projeto</span></li>
+      </ul>
+    </div>
+    <div class="spacer"></div>
+    <div class="bot"><div class="sig"><span class="selo"></span>Uma empresa do Grupo E-SOL</div><div class="pager">4 / 5</div></div>
+  </div>
+</section>
+
+<section class="page s-graf capa" data-document-role="page" data-label="5 · CTA">
+  <svg class="orbit" viewBox="0 0 1080 1350"><path d="M0,934 Q540,938 1080,958" fill="none" stroke="#FFCC29" stroke-width="5" stroke-linecap="round"/><circle cx="540" cy="942" r="21" fill="#FFCC29"/></svg>
+  <div class="content">
+    <div>
+      <div class="eyebrow">Fale com a E-SOL</div>
+      <h2 class="title" style="font-size:88px">Solicite seu orçamento</h2>
+      <div class="cta-lines"><span class="h">@esolengenharia</span><br>esolengenharia.com.br</div>
+    </div>
+    <div class="spacer"></div>
+    <div class="bot"><div class="sig"><span class="selo"></span>Energia solar com engenharia própria</div><div class="pager">5 / 5</div></div>
+  </div>
+</section>
+
+</body>
+</html>
